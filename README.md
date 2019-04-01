@@ -1,10 +1,6 @@
-# Soundcloud Visualizer
+# Soundcloud Logo Visualizer
 
 This is an experiment in using the web audio API together with canvas to make some interesting and cool-looking visualizations.
-
-Since this is my first foray into the world of both canvas and web audio, I have slowly iterated over a number of ideas and trials which are all in the `/tests` folder.
-
-The visual style was inspired by the artwork of the album ["The Resistance"] (http://en.wikipedia.org/wiki/File:Theresistance.jpg) by Muse.
 
 Thanks to [Soundcloud] (https://soundcloud.com) for providing a great open API!
 
@@ -27,9 +23,9 @@ You'll notice that part of the the track URL is added to the visualizer's URL. T
 Playlists (also known as "sets" in Soundcloud) can now be pasted into the visualizer, which will cause the whole playlist to play in sequence. You can navigate the playlist using the controls below.
 
 ## Controls
-- `spacebar` = toggle play/pause
-- `>` (right arrow key) = skip forward to next track in playlist
-- `<` (left arrow key) = skip backward to previous track in playlist
+- <kbd>spacebar</kbd> = toggle play/pause
+- <kbd>🠖</kbd> (right arrow key) = skip forward to next track in playlist
+- <kbd>🠔</kbd> (left arrow key) = skip backward to previous track in playlist
 
 # Issues
 
